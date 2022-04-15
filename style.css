@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+
+:root {
+  --font: "Space Grotesk", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-image: linear-gradient(aqua, purple, magenta);
+}
+
+.main-layout {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 100%;
+}
+
+/* menu */
+.menu-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.nav-btn {
+  text-decoration: none;
+  color: white;
+  border: 2px white solid;
+  border-radius: 7px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: var(--font);
+  text-transform: uppercase;
+  padding: 5px;
+  font-weight: lighter;
+}
+
+.nav-btn:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+  color: aqua;
+}
+
+/* hearder */
+.header-container {
+  height: 450px;
+
+  border-radius: 12px;
+  background-image: url("mercury.svg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 15px;
+  margin: 15 0 15 0;
+}
+
+.action-btn {
+  height: 30px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-family: var(--font);
+  font-size: 16px;
+  color: white;
+  font-weight: lighter;
+}
+
+/* footer */
+
+.footer {
+  font-family: var(--font);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-social {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
