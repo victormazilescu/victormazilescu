@@ -2,6 +2,7 @@
 
 :root {
   --font: "Space Grotesk", sans-serif;
+  --sleepy-lilla: #9143f5;
 }
 
 * {
@@ -11,7 +12,7 @@
 }
 
 body {
-  background-image: linear-gradient(aqua, purple, magenta);
+  background-color: #d6d8ff;
 }
 
 .main-layout {
@@ -51,7 +52,7 @@ body {
 }
 
 .nav-btn:hover {
-  background-color: blueviolet;
+  background-color: var(--sleepy-lilla)
   cursor: pointer;
   color: aqua;
 }
@@ -117,7 +118,7 @@ h2 {
   }
 } */
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   .menu-bar {
     margin-top: 15px;
     display: flex;
