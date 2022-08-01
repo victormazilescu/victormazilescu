@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 
 :root {
   --font: "Space Grotesk", sans-serif;
@@ -9,10 +9,6 @@
   position: relative;
   width: 1440px;
   height: 1640px;
-  margin: 0;
-  padding: 0;
-  border: 0;
-
   background: #D6D8FF;
 }
 
@@ -52,18 +48,13 @@
   top: 0px;
 }
 
-
-/* nav-list item */
-
-
-
+/* nav-btn */
 .nav-btn {
 display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 10px;
 gap: 10px;
-
 width: 136px;
 height: 60px;
 filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.15));
