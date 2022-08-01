@@ -30,7 +30,6 @@
 /* menu */
 
 /* menu-container */
-
 .menu-container {
   width: 1300px;
   height: 100px;
@@ -39,7 +38,7 @@
   flex-grow: 0;
 }
 
-
+/* menu-bar */
 .menu-bar {
   width: 1300px;
   height: 100px;
@@ -48,7 +47,6 @@
   align-items: flex-start;
   padding: 20px 0px;
   gap: 20px;
-
   position: absolute;
   left: 563px;
   top: 0px;
