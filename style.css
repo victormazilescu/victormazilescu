@@ -6,14 +6,16 @@
 }
 
 * {
+  position: relative;
+  width: 1440px;
+  height: 1640px;
   margin: 0;
   padding: 0;
   border: 0;
+
+  background: #D6D8FF;
 }
 
-body {
-  background-color: #d6d8ff;
-}
 
 .main-layout {
   display: flex;
@@ -26,29 +28,53 @@ body {
 }
 
 /* menu */
+
+/* nav-bar */
+
+
+/* Auto layout */
+
+
 .menu-bar {
-  margin-top: 15px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: flex-start;
+flex-direction: row;
+align-items: flex-start;
+padding: 20px 0px;
+gap: 20px;
+
+position: absolute;
+width: 807px;
+height: 100px;
+left: 563px;
+top: 0px;
 }
 
+
+/* nav-list item */
+
+
+
 .nav-btn {
-  text-decoration: none;
-  color: white;
-  border: 2px white solid;
-  border-radius: 7px;
-  width: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-family: var(--font);
-  text-transform: uppercase;
-  padding: 5px;
-  font-weight: lighter;
+  /* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 136px;
+height: 60px;
+
+/* button shadow 1 */
+
+filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.15));
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
 }
 
 .nav-btn:hover {
@@ -57,20 +83,38 @@ body {
   color: aqua;
 }
 
-/* hearder */
-.header-container {
-  height: 450px;
 
-  border-radius: 12px;
-  background-image: url("Slice\ 1index.main.image.png");
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  flex-direction: column;
-  padding: 15px;
-  margin: 15 0 15 0;
+
+/* hero */
+.hero-container {
+  position: absolute;
+  width: 1300px;
+  height: 700px;
+  left: 70px;
+  top: 199px;
+  
+  /* <Victor Mazilescu/> <Creative Portofolio/> */
+
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 77.18%;
+
+/* H2 60p */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 80px;
+/* or 133% */
+
+
+/* Dark blue */
+
+color: #2B2D6C;
 }
 
 .action-btn {
