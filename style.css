@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 
 :root {
-  --font: "Space Grotesk", sans-serif;
+  --font: "Poppins";
   --sleepy-lilla: #9143f5;
 }
 
@@ -80,7 +80,7 @@ flex-grow: 0;
   
   /* <Victor Mazilescu/> <Creative Portofolio/> */
 
-
+.h2 { 
 position: absolute;
 left: 0%;
 right: 0%;
